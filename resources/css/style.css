@@ -1,0 +1,148 @@
+body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+header {
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: seashell 1px solid;
+  z-index: 1;
+}
+
+nav {
+  padding-right: 10px;
+}
+nav a {
+  padding: 10px;
+  color: seashell;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+#mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 1200px;
+  height: 700px;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+}
+
+#mission h2,h4 {
+  margin: 5px;
+  padding: 5px;
+}
+
+#mission div {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text {
+  margin: 0 auto;
+  width: 1000px;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+#featured {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+  padding-bottom: 75px;
+}
+
+.image {
+  text-align: center;
+}
+
+#featured img {
+  height: 200px;
+  width: 300px;
+  padding: 10px 15px;
+}
+
+#featured h2,h4 {
+  display: block;
+}
+
+#locations {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+  height: 500px;
+  width: 1200px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+#locations h2 {
+  position: relative;
+  top: 60px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  left: 20px;
+}
+
+.info {
+  opacity: 1;
+  margin-right: 40px;
+  padding-top: 5px;
+  width: 300px;
+  background-color: black;
+  text-align: center;
+  margin-top: 15px;
+  position: relative;
+  bottom: 30px;
+}
+
+.info p {
+  padding: 10px;
+  font-weight: lighter;
+}
+
+.contact {
+  margin: 0 auto;
+  text-align: center;
+  height: 200px;
+  position: relative;
+  bottom: 15px;
+}
+
+.copy {
+  text-align: left;
+  padding-left: 20px;
+  position: relative;
+  bottom: 15px;
+}
